@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LR69fh3c0hplzB7QWBC/aErgHsBH1j89A7UHmOLmdTDhN+sqb59CevhiUVcX5bpz9EjhjXvB9gisK36/3Kltiw==",
+  "dgSpecHash": "PhbQhz6K+mA5kLr5CYVaDlIzI14ii5lYGvrVwsWz/xjk7kUK6CoNSpA5n57TOqD6lF31IvOMox9UpszBX1Aoxw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\farid\\source\\repos\\Shop\\Shop\\Shop.csproj",
+  "projectFilePath": "C:\\Users\\farid\\Desktop\\Git\\Shop\\Shop\\Shop.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\farid\\.nuget\\packages\\microsoft.aspnet.mvc\\5.3.0\\microsoft.aspnet.mvc.5.3.0.nupkg.sha512",
     "C:\\Users\\farid\\.nuget\\packages\\microsoft.aspnet.razor\\3.3.0\\microsoft.aspnet.razor.3.3.0.nupkg.sha512",

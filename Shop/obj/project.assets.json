@@ -848,11 +848,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\farid\\source\\repos\\Shop\\Shop\\Shop.csproj",
+      "projectUniqueName": "C:\\Users\\farid\\Desktop\\Git\\Shop\\Shop\\Shop.csproj",
       "projectName": "Shop",
-      "projectPath": "C:\\Users\\farid\\source\\repos\\Shop\\Shop\\Shop.csproj",
+      "projectPath": "C:\\Users\\farid\\Desktop\\Git\\Shop\\Shop\\Shop.csproj",
       "packagesPath": "C:\\Users\\farid\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\farid\\source\\repos\\Shop\\Shop\\obj\\",
+      "outputPath": "C:\\Users\\farid\\Desktop\\Git\\Shop\\Shop\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\farid\\AppData\\Roaming\\NuGet\\NuGet.Config",
