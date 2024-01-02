@@ -9,7 +9,7 @@ public class Car
     public string Img { get; set; }
     public ushort Price { get; set; }
     public bool isFavorite { get; set; }
-    public int Available { get; set; }
+    public bool isAvailable { get; set; }
     public int categoryId { get; set; } 
     public virtual Category Category { get; set; }
 }

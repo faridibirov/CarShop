@@ -1,6 +1,15 @@
-var builder = WebApplication.CreateBuilder(args);
-var app = builder.Build();
+using Microsoft.AspNetCore;
 
-app.MapGet("/", () => "Hello World!");
+namespace Shop;
 
-app.Run();
+public class Program
+{
+	public static void Main(string[] args)
+	{
+		CreateWebHostBuilder(args).Build().Run();
+	}
+
+	private static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
+		WebHost.CreateDefaultBuilder(args).UseStartup<Startup>();
+	
+}
