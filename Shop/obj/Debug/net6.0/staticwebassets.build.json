@@ -1,11 +1,88 @@
 {
   "Version": 1,
-  "Hash": "orLq3EVQsS/YSj5JBM25GXO4EeyI6K1B40PLlt7hq7A=",
+  "Hash": "7E2XCbHIrozxdFZU9IV9mQRKsNHRG0kafT4rVYCLCt4=",
   "Source": "Shop",
   "BasePath": "_content/Shop",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "Shop\\wwwroot",
+      "Source": "Shop",
+      "ContentRoot": "C:\\Users\\farid\\Desktop\\Git\\Shop\\Shop\\wwwroot\\",
+      "BasePath": "_content/Shop",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\farid\\Desktop\\Git\\Shop\\Shop\\wwwroot\\css\\bootstrap.min.css",
+      "SourceId": "Shop",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\farid\\Desktop\\Git\\Shop\\Shop\\wwwroot\\",
+      "BasePath": "_content/Shop",
+      "RelativePath": "css/bootstrap.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\farid\\Desktop\\Git\\Shop\\Shop\\wwwroot\\css\\style.css",
+      "SourceId": "Shop",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\farid\\Desktop\\Git\\Shop\\Shop\\wwwroot\\",
+      "BasePath": "_content/Shop",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "C:\\Users\\farid\\Desktop\\Git\\Shop\\Shop\\wwwroot\\img\\tesla.jpg",
+      "SourceId": "Shop",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\farid\\Desktop\\Git\\Shop\\Shop\\wwwroot\\",
+      "BasePath": "_content/Shop",
+      "RelativePath": "img/tesla.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\tesla.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\farid\\Desktop\\Git\\Shop\\Shop\\wwwroot\\js\\bootstrap.min.js",
+      "SourceId": "Shop",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\farid\\Desktop\\Git\\Shop\\Shop\\wwwroot\\",
+      "BasePath": "_content/Shop",
+      "RelativePath": "js/bootstrap.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\bootstrap.min.js"
+    }
+  ]
 }
