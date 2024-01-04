@@ -81,3 +81,8 @@ C:\Users\farid\Desktop\Git\Shop\Shop\bin\Debug\net6.0\runtimes\win\lib\netstanda
 C:\Users\farid\Desktop\Git\Shop\Shop\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 C:\Users\farid\Desktop\Git\Shop\Shop\bin\Debug\net6.0\Humanizer.dll
 C:\Users\farid\Desktop\Git\Shop\Shop\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\farid\Desktop\Git\Shop\Shop\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\farid\Desktop\Git\Shop\Shop\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\farid\Desktop\Git\Shop\Shop\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\farid\Desktop\Git\Shop\Shop\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\farid\Desktop\Git\Shop\Shop\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll

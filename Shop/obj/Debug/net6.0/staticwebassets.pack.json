@@ -9,6 +9,22 @@
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
+      "Id": "C:\\Users\\farid\\Desktop\\Git\\Shop\\Shop\\wwwroot\\img\\bmw.jpg",
+      "PackagePath": "staticwebassets\\img\\bmw.jpg"
+    },
+    {
+      "Id": "C:\\Users\\farid\\Desktop\\Git\\Shop\\Shop\\wwwroot\\img\\mercedes.jpg",
+      "PackagePath": "staticwebassets\\img\\mercedes.jpg"
+    },
+    {
+      "Id": "C:\\Users\\farid\\Desktop\\Git\\Shop\\Shop\\wwwroot\\img\\mustang.jpg",
+      "PackagePath": "staticwebassets\\img\\mustang.jpg"
+    },
+    {
+      "Id": "C:\\Users\\farid\\Desktop\\Git\\Shop\\Shop\\wwwroot\\img\\nissan.jpg",
+      "PackagePath": "staticwebassets\\img\\nissan.jpg"
+    },
+    {
       "Id": "C:\\Users\\farid\\Desktop\\Git\\Shop\\Shop\\wwwroot\\img\\tesla.jpg",
       "PackagePath": "staticwebassets\\img\\tesla.jpg"
     },
