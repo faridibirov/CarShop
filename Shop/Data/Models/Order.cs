@@ -10,29 +10,29 @@ public class Order
 
 	[Display(Name = "Имя")]
 	[StringLength(15)]
-	[Required(ErrorMessage = "Длина имени не менее 2 символов")]
+	[Required(ErrorMessage = "Введите ваше имя")]
 	public string Name { get; set; }
 
 	[Display(Name = "Фамилия")]
 	[StringLength(15)]
-	[Required(ErrorMessage = "Длина фамилии не менее 2 символов")]
+	[Required(ErrorMessage = "Введите вашу фамилию")]
 	public string Surname { get; set; }
 
 	[Display(Name = "Адрес")]
 	[StringLength(25)]
-	[Required(ErrorMessage = "Длина адреса не менее 5 символов")]
+	[Required(ErrorMessage = "Введите ваш адрес")]
 	public string Address { get; set; }
 
 	[Display(Name = "Номер телефона")]
 	[StringLength(15)]
 	[DataType(DataType.PhoneNumber)]
-	[Required(ErrorMessage = "Длина номера не менее 10 символов")]
+	[Required(ErrorMessage = "Введите ваш номер телефона")]
 	public string Phone { get; set; }
 
 	[Display(Name = "Email")]
 	[StringLength(20)]
 	[DataType(DataType.EmailAddress)]
-	[Required(ErrorMessage = "Длина email не менее 5 символов")]
+	[Required(ErrorMessage = "Введите ваш email")]
 	public string Email { get; set; }
 
 	[BindNever]

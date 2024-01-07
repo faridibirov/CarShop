@@ -1,7 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using Shop.Data;
 using Shop.Data.Interfaces;
-using Shop.Data.Mocks;
 using Shop.Data.Models;
 using Shop.Data.Repository;
 
@@ -20,6 +20,7 @@ namespace Shop
 
 		public void ConfigureServices(IServiceCollection services)
 		{
+			
 			services.AddDbContext<AppDBContext>(options => options.UseSqlServer(_confString.GetConnectionString("DefaultConnection")));
 			services.AddTransient<IAllCars, CarRepository>();
 			services.AddTransient<ICarsCategory, CategoryRepository>();
@@ -28,6 +29,8 @@ namespace Shop
 			services.AddSingleton<IHttpContextAccessor,HttpContextAccessor>();
 			services.AddScoped(sp => ShopCart.GetCart(sp));
 
+			services.AddAuthentication();
+			services.AddAuthorization();
 
 			services.AddMvc(option => option.EnableEndpointRouting = false);
 			services.AddMemoryCache();
@@ -46,6 +49,9 @@ namespace Shop
 				routes.MapRoute(name: "default", template: "{controller=Home}/{action=Index}/{id?}");
 				routes.MapRoute(name: "categoryFilter", template: "Car/{action}/{category?}", defaults: new {Controller="Car", action="List"});
 			});
+
+			app.UseAuthentication();
+			app.UseAuthorization();
 
 			using (var scope = app.ApplicationServices.CreateScope())
 			{

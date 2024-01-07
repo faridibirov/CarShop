@@ -25,12 +25,7 @@ public class OrderController : Controller
 	{
 		_shopCart.listShopItems = _shopCart.getShopItems();
 
-		if (_shopCart.listShopItems.Count == 0)
-		{
-			ModelState.AddModelError("Name", "У вас должны быть товары!");
-		}
-
-		//ModelState.Remove("orderDetails");
+		ModelState.Remove("orderDetails");
 		if (ModelState.IsValid)
 		{
 			_allOrders.CreateOrder(order);

@@ -33,10 +33,7 @@
                             <a class="nav-link" href="/ShopCart/">Корзина</a>
                         </li>
                     </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
+                        <a class="btn btn-outline-success" asp-area="Identity" asp-page="/Account/Login">Sign In</a>
                 </div>
             </div>
         </nav>
@@ -44,10 +41,13 @@
     <div class="container mt-5">
         @RenderBody()
     </div>
-    <footer class="container">
+    <footer>
+        <div class="container">
         <p class="float-end"><a href="#">Back to top</a></p>
-        <p>© 2023 Company, Inc. · <a href="#">Privacy</a></p>
+        <p>© 2024 CarShop, Inc.</p>
+        </div>
     </footer>
     <script src="~/js/bootstrap.min.js"></script>
+    @RenderSection("Scripts", required: false)
 </body>
 </html>
