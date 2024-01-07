@@ -23,6 +23,7 @@ namespace Shop
 			services.AddDbContext<AppDBContext>(options => options.UseSqlServer(_confString.GetConnectionString("DefaultConnection")));
 			services.AddTransient<IAllCars, CarRepository>();
 			services.AddTransient<ICarsCategory, CategoryRepository>();
+			services.AddTransient<IAllOrders, OrdersRepository>();
 
 			services.AddSingleton<IHttpContextAccessor,HttpContextAccessor>();
 			services.AddScoped(sp => ShopCart.GetCart(sp));
