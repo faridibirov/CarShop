@@ -17,7 +17,8 @@ public class OrderController : Controller
 
 	public IActionResult Checkout()
 	{
-		return View();
+        ViewBag.Title = "Заказ";
+        return View();
 	}
 
 	[HttpPost]
@@ -32,13 +33,18 @@ public class OrderController : Controller
 			return RedirectToAction("Complete");
 		}
 
-		return View(order);
+        ViewBag.Title = "Заказ";
+
+        return View(order);
 	}
 
 	public IActionResult Complete()
 	{
 		ViewBag.Message = "Заказ успешно отправлен";
 
-		return View();
+        ViewBag.Title = "Заказ";
+
+
+        return View();
 	}
 }

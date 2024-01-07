@@ -28,8 +28,8 @@ public class ShopCartController : Controller
 		{
 			shopCart = _shopCart,
 		};
-
-		return View(obj);
+        ViewBag.Title = "Корзина";
+        return View(obj);
 	}
 
 	public RedirectToActionResult addToCart(int id)
@@ -40,8 +40,9 @@ public class ShopCartController : Controller
 		{
 			_shopCart.AddToCart(item);
 		}
+        
 
-		return RedirectToAction("Index");
+        return RedirectToAction("Index");
 	}
 
 }

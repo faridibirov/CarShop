@@ -21,6 +21,12 @@ public class HomeController : Controller
 			favCars = _carRep.getFavCars
 		};
 
-		return View(homeCars);
+
+        ViewBag.Title = "Главная";
+
+        return View(homeCars);
+
+
 	}
+
 }

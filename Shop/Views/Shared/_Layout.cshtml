@@ -3,9 +3,12 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>@ViewBag.Title</title>
+    <title>CarShop - @ViewBag.Title</title>
     <link href="~/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="~/css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+          integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header data-bs-theme="dark">
@@ -30,11 +33,11 @@
                             <a class="nav-link" href="/Cars/List/fuel">Бензиновые</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/ShopCart/">Корзина</a>
+                            <a class="nav-link" href="/ShopCart/"><i class="fa-solid fa-cart-shopping"></i></a>
                         </li>
                     </ul>
                     <partial name="_LoginPartial"/>
-                        @*<a class="btn btn-outline-success" asp-area="Identity" asp-page="/Account/Login">Sign In</a>*@
+                       
                 </div>
             </div>
         </nav>

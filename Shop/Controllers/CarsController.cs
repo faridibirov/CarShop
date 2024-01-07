@@ -26,6 +26,7 @@ public class CarsController : Controller
         if(string.IsNullOrEmpty(category))
         {
             cars = _allCars.AllCars.OrderBy(i => i.Id);
+            ViewBag.Title = "Все Автомобили";
         }
         else
         {
@@ -33,13 +34,15 @@ public class CarsController : Controller
             {
                 cars = _allCars.AllCars.Where(i => i.Category.categoryName.Equals("Электромобили")).OrderBy(i => i.Id);
 				currCategory = "Электромобили";
-			}
+                ViewBag.Title = "Электромобили";
+            }
 
             else if (string.Equals("fuel", category, StringComparison.OrdinalIgnoreCase))
 			{
 				cars = _allCars.AllCars.Where(i => i.Category.categoryName.Equals("Классические автомобили")).OrderBy(i => i.Id);
-				currCategory = "Классические автомобили";
-			}
+				currCategory = "Классические Автомобили";
+                ViewBag.Title = "Классические Автомобили";
+            }
 
           
 		}
@@ -50,7 +53,7 @@ public class CarsController : Controller
             currCategory = currCategory,
         };
 
-        ViewBag.Title = "Страница с Автомобилями";
+        
 
         return View(carObj);
     }
