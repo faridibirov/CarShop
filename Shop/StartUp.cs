@@ -22,6 +22,7 @@ namespace Shop
 		{
 			
 			services.AddDbContext<AppDBContext>(options => options.UseSqlServer(_confString.GetConnectionString("DefaultConnection")));
+			services.AddDefaultIdentity<DefaultUser>().AddEntityFrameworkStores<AppDBContext>();
 			services.AddTransient<IAllCars, CarRepository>();
 			services.AddTransient<ICarsCategory, CategoryRepository>();
 			services.AddTransient<IAllOrders, OrdersRepository>();
@@ -29,8 +30,8 @@ namespace Shop
 			services.AddSingleton<IHttpContextAccessor,HttpContextAccessor>();
 			services.AddScoped(sp => ShopCart.GetCart(sp));
 
-			services.AddAuthentication();
-			services.AddAuthorization();
+			//services.AddAuthentication();
+			//services.AddAuthorization();
 
 			services.AddMvc(option => option.EnableEndpointRouting = false);
 			services.AddMemoryCache();
@@ -39,7 +40,9 @@ namespace Shop
 
 		public void Configure(IApplicationBuilder app, Microsoft.AspNetCore.Hosting.IHostingEnvironment env)
 		{
-			app.UseDeveloperExceptionPage();
+            app.UseAuthentication();
+            app.UseAuthorization();
+            app.UseDeveloperExceptionPage();
 			app.UseStatusCodePages();
 			app.UseStaticFiles();
 			app.UseSession();
@@ -50,8 +53,7 @@ namespace Shop
 				routes.MapRoute(name: "categoryFilter", template: "Car/{action}/{category?}", defaults: new {Controller="Car", action="List"});
 			});
 
-			app.UseAuthentication();
-			app.UseAuthorization();
+			
 
 			using (var scope = app.ApplicationServices.CreateScope())
 			{
