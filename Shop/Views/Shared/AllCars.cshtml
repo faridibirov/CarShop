@@ -4,6 +4,6 @@
 	<img class="img-thumbnail" src="@Model.Img" alt="@Model.Name" />
 	<h2>@Model.Name</h2>
 	<p>@Model.shortDesc</p>
-	<p>Цена: @Model.Price.ToString("c")</p>
+	<p>Цена: @Model.Price.ToString("c", new System.Globalization.CultureInfo("en-US"))</p>
 	<p><a class="btn btn-warning" asp-controller="ShopCart" asp-action="addToCart" asp-route-id="@Model.Id">Добавить в корзину</a></p>
 </div>

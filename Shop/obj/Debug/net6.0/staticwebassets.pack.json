@@ -13,6 +13,18 @@
       "PackagePath": "staticwebassets\\img\\bmw.jpg"
     },
     {
+      "Id": "C:\\Users\\farid\\Desktop\\Git\\Shop\\Shop\\wwwroot\\img\\favicon.ico",
+      "PackagePath": "staticwebassets\\img\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\farid\\Desktop\\Git\\Shop\\Shop\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\farid\\Desktop\\Git\\Shop\\Shop\\wwwroot\\img\\logofooter.png",
+      "PackagePath": "staticwebassets\\img\\logofooter.png"
+    },
+    {
       "Id": "C:\\Users\\farid\\Desktop\\Git\\Shop\\Shop\\wwwroot\\img\\mercedes.jpg",
       "PackagePath": "staticwebassets\\img\\mercedes.jpg"
     },
