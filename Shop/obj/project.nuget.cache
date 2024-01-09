@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CWWFdinN6mgZWWtriQLN9tTYTup7hKS9wCdI1LcBXq9iARnYnHuEJUwY+BWUp9gnxk8s1/ReVb362AMbqdD8lw==",
+  "dgSpecHash": "MNkMVhfTtZzmQcvaJ8OvWaGgj9FepAcZTYEfRDWf/iOxFTI0Z6MnN1wuUFZHbYHYcTmj+JgLhUF0v3HMT+Yinw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\farid\\Desktop\\Git\\Shop\\Shop\\Shop.csproj",
+  "projectFilePath": "C:\\Users\\farid\\Desktop\\Git\\CarShop\\Shop\\Shop.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\farid\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\farid\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",

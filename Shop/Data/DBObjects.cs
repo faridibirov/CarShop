@@ -28,47 +28,47 @@ public class DBObjects
 				 },
 				  new Car
 				  {
-					  Name = "Tesla Model S",
-					  shortDesc = "Быстрый Автомобиль",
-					  longDesc = "Красивый, быстрый и очень тихий автомобиль компании Tesla",
-					  Img = "/img/tesla.jpg",
-					  Price = 45000,
-					  isFavorite = true,
+					  Name = "Nissan Leaf",
+					  shortDesc = "Безшумный и экономный",
+					  longDesc = "Удобный автомобиль для городской жизни",
+					  Img = "/img/nissan.jpg",
+					  Price = 14000,
+					  isFavorite = false,
 					  isAvailable = true,
 					  Category = Categories["Электромобили"]
 				  },
 				   new Car
 				   {
-					   Name = "Tesla Model S",
-					   shortDesc = "Быстрый Автомобиль",
-					   longDesc = "Красивый, быстрый и очень тихий автомобиль компании Tesla",
-					   Img = "/img/tesla.jpg",
-					   Price = 45000,
+					   Name = "BMW M5",
+					   shortDesc = "Дерзкий и стильный",
+					   longDesc = "Удобный автомобиль для городской жизни",
+					   Img = "/img/bmw.jpg",
+					   Price = 65000,
 					   isFavorite = true,
 					   isAvailable = true,
-					   Category = Categories["Электромобили"]
+					   Category = Categories["Классические автомобили"]
 				   },
 					new Car
 					{
-						Name = "Tesla Model S",
-						shortDesc = "Быстрый Автомобиль",
-						longDesc = "Красивый, быстрый и очень тихий автомобиль компании Tesla",
-						Img = "/img/tesla.jpg",
-						Price = 45000,
+						Name = "Mercedes C63 AMG",
+						shortDesc = "Уютный и большой",
+						longDesc = "Удобный автомобиль для городской жизни",
+						Img = "/img/mercedes.jpg",
+						Price = 40000,
 						isFavorite = true,
 						isAvailable = true,
-						Category = Categories["Электромобили"]
+						Category = Categories["Классические автомобили"]
 					},
 					 new Car
 					 {
-						 Name = "Tesla Model S",
-						 shortDesc = "Быстрый Автомобиль",
-						 longDesc = "Красивый, быстрый и очень тихий автомобиль компании Tesla",
-						 Img = "/img/tesla.jpg",
-						 Price = 45000,
+						 Name = "Ford Mustang",
+						 shortDesc = "Спортнивый автомобиль",
+						 longDesc = "Удобный автомобиль для городской жизни",
+						 Img = "/img/mustang.jpg",
+						 Price = 35000,
 						 isFavorite = true,
 						 isAvailable = true,
-						 Category = Categories["Электромобили"]
+						 Category = Categories["Классические автомобили"]
 					 }
 				);	
 

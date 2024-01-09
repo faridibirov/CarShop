@@ -1,47 +1,47 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\farid\\Desktop\\Git\\Shop\\Shop\\wwwroot\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\farid\\Desktop\\Git\\CarShop\\Shop\\wwwroot\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\farid\\Desktop\\Git\\Shop\\Shop\\wwwroot\\css\\style.css",
+      "Id": "C:\\Users\\farid\\Desktop\\Git\\CarShop\\Shop\\wwwroot\\css\\style.css",
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
-      "Id": "C:\\Users\\farid\\Desktop\\Git\\Shop\\Shop\\wwwroot\\img\\bmw.jpg",
+      "Id": "C:\\Users\\farid\\Desktop\\Git\\CarShop\\Shop\\wwwroot\\img\\bmw.jpg",
       "PackagePath": "staticwebassets\\img\\bmw.jpg"
     },
     {
-      "Id": "C:\\Users\\farid\\Desktop\\Git\\Shop\\Shop\\wwwroot\\img\\favicon.ico",
+      "Id": "C:\\Users\\farid\\Desktop\\Git\\CarShop\\Shop\\wwwroot\\img\\favicon.ico",
       "PackagePath": "staticwebassets\\img\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\farid\\Desktop\\Git\\Shop\\Shop\\wwwroot\\img\\logo.png",
+      "Id": "C:\\Users\\farid\\Desktop\\Git\\CarShop\\Shop\\wwwroot\\img\\logo.png",
       "PackagePath": "staticwebassets\\img\\logo.png"
     },
     {
-      "Id": "C:\\Users\\farid\\Desktop\\Git\\Shop\\Shop\\wwwroot\\img\\logofooter.png",
+      "Id": "C:\\Users\\farid\\Desktop\\Git\\CarShop\\Shop\\wwwroot\\img\\logofooter.png",
       "PackagePath": "staticwebassets\\img\\logofooter.png"
     },
     {
-      "Id": "C:\\Users\\farid\\Desktop\\Git\\Shop\\Shop\\wwwroot\\img\\mercedes.jpg",
+      "Id": "C:\\Users\\farid\\Desktop\\Git\\CarShop\\Shop\\wwwroot\\img\\mercedes.jpg",
       "PackagePath": "staticwebassets\\img\\mercedes.jpg"
     },
     {
-      "Id": "C:\\Users\\farid\\Desktop\\Git\\Shop\\Shop\\wwwroot\\img\\mustang.jpg",
+      "Id": "C:\\Users\\farid\\Desktop\\Git\\CarShop\\Shop\\wwwroot\\img\\mustang.jpg",
       "PackagePath": "staticwebassets\\img\\mustang.jpg"
     },
     {
-      "Id": "C:\\Users\\farid\\Desktop\\Git\\Shop\\Shop\\wwwroot\\img\\nissan.jpg",
+      "Id": "C:\\Users\\farid\\Desktop\\Git\\CarShop\\Shop\\wwwroot\\img\\nissan.jpg",
       "PackagePath": "staticwebassets\\img\\nissan.jpg"
     },
     {
-      "Id": "C:\\Users\\farid\\Desktop\\Git\\Shop\\Shop\\wwwroot\\img\\tesla.jpg",
+      "Id": "C:\\Users\\farid\\Desktop\\Git\\CarShop\\Shop\\wwwroot\\img\\tesla.jpg",
       "PackagePath": "staticwebassets\\img\\tesla.jpg"
     },
     {
-      "Id": "C:\\Users\\farid\\Desktop\\Git\\Shop\\Shop\\wwwroot\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\farid\\Desktop\\Git\\CarShop\\Shop\\wwwroot\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
     },
     {
