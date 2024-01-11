@@ -27,7 +27,7 @@ Welcome to my ASP.NET MVC e-commerce project repository! This project is a full-
 1. Clone the repository to your local machine:
 
     ```bash
-    git clone https://github.com/your-username/your-repo.git
+    git clone https://github.com/faridibirov/CarShop
     ```
 
 2. Navigate to specific folders for detailed instructions on each feature.
